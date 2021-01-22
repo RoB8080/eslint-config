@@ -1,0 +1,20 @@
+{
+    "name": "@rob8080/eslint-config",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": {
+        "name": "rob8080",
+        "email": "75566977@qq.com"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": ">= 4.14.0 < 5",
+        "@typescript-eslint/parser": ">= 4.14.0 < 5",
+        "eslint": ">= 7",
+        "eslint-plugin-vue": ">= 7.4.0 < 8",
+        "vue-eslint-parser": ">= 7.3.0 < 8"
+    },
+    "devDependencies": {
+        "eslint": "^7.18.0"
+    }
+}
