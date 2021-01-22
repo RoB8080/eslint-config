@@ -6,6 +6,11 @@
         "name": "rob8080",
         "email": "75566977@qq.com"
     },
+    "homepage": "https://github.com/RoB8080/eslint-config#readme",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/RoB8080/eslint-config"
+    },
     "license": "MIT",
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": ">= 4.14.0 < 5",
