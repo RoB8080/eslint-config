@@ -16,8 +16,12 @@ export default function() {
         { name: 'ts', obj: defaultsDeep({}, base, ts) },
         { name: 'vue', obj: defaultsDeep({}, base, vue) },
         { name: 'full', obj: defaultsDeep({}, base, ts, vue) },
-    ].map(pair => fsp.writeFile(
+    ].map(async (pair) => {
+        const dir = path.join(dist, pair.name)
+        await fsp.mkdir(dir, { recursive:true })
+        await fsp.writeFile(
             path.join(dist, pair.name, 'index.js'),
-            obj2JSModule(pair.obj)
-    )))
+            obj2JSModule(pair.obj),
+        )
+    }))
 }
