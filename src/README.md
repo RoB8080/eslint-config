@@ -1,4 +1,4 @@
-# @rob8080/eslint-config
+# @package
 
 A config mostly used by myself, including recommend extends from JS, TS & Vue, also with some additional rules.
 
@@ -7,10 +7,10 @@ A config mostly used by myself, including recommend extends from JS, TS & Vue, a
 
 ```shell
 # Yarn
-yarn add --dev eslint @rob8080/eslint-config
+yarn add --dev eslint @package
 
 # NPM
-npm install -D eslint @rob8080/eslint-config
+npm install -D eslint @package
 ```
 
 * Also add peer dependencies listed below
@@ -31,7 +31,7 @@ vue-eslint-parser@>=7.3.0|✔️|||✔️
 module.exports = {
     // ...
     extends: [
-        '@rob8080/eslint-config', // or other package
+        '@package', // or other package
     ],
     // ...
 }

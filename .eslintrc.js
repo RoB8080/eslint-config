@@ -4,5 +4,5 @@ module.exports = {
         node: true,
         es6: true,
     },
-    extends: [ './lib/base' ],
+    extends: [ '@rob8080/eslint-config-ts' ],
 }
