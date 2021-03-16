@@ -17,6 +17,7 @@
     },
     "license": "MIT",
     "devDependencies": {
+        "@rob8080/eslint-config-ts": "^0.2.1",
         "@types/gulp": "^4.0.8",
         "@types/gulp-json-editor": "^2.2.33",
         "@types/gulp-replace": "^0.0.31",

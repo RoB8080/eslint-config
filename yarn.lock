@@ -59,6 +59,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@rob8080/eslint-config-ts@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@rob8080/eslint-config-ts/-/eslint-config-ts-0.2.1.tgz#3215abf7e275ca0298e713434028b8f4d6abcdcb"
+  integrity sha512-aSW8Agn59Y+JCUB4HBWp6Gzg5HETUrwFoyBYJhXIKNSJnUhSiRaiRbyZoiVlh7VcjSNivAEQytpbdwwjPsagjA==
+
 "@types/expect@^1.20.4":
   version "1.20.4"
   resolved "https://registry.yarnpkg.com/@types/expect/-/expect-1.20.4.tgz#8288e51737bf7e3ab5d7c77bfa695883745264e5"
