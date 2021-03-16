@@ -12,7 +12,8 @@
         "url": "https://github.com/RoB8080/eslint-config"
     },
     "scripts": {
-        "build": "gulp build"
+        "build": "gulp build",
+        "lint": "eslint src/*.ts --fix"
     },
     "license": "MIT",
     "devDependencies": {
